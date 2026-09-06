@@ -1,6 +1,6 @@
-# g02b-dimitrio-enhanced
+# g02b-the-stakes
 
-Companion repository for **g02b — Dimitrio Enhanced** at
+Companion repository for **g02b — The Stakes** at
 [thecodingidiot.com](https://thecodingidiot.com).
 
 ---
@@ -15,7 +15,7 @@ Clone this repository — it carries everything needed, including the
 [g02a](https://github.com/thecodingidiot-com/g02a-the-platformer) used:
 
 ```bash
-git clone https://github.com/thecodingidiot-com/g02b-dimitrio-enhanced.git g02b-practice
+git clone https://github.com/thecodingidiot-com/g02b-the-stakes.git g02b-practice
 cd g02b-practice/solution
 make -C libtci re
 bash gen_assets.sh

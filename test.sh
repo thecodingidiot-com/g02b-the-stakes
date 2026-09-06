@@ -1,5 +1,5 @@
 #!/bin/bash
-# g02b — Dimitrio Enhanced / test.sh
+# g02b — The Stakes / test.sh
 #
 # Builds the game, then checks the physics/collision/event logic
 # deterministically -- compiled and linked WITHOUT SDL2 or SDL2_mixer
@@ -51,7 +51,7 @@ hr() {
 
 banner() {
     hr
-    echo "  g02b — Dimitrio Enhanced / test.sh"
+    echo "  g02b — The Stakes / test.sh"
     hr
 }
 
@@ -100,7 +100,7 @@ fi
 # ── build the SDL2-free logic tester ─────────────────────────────────────────
 
 if [[ ! -f "${FIXTURES}/test-map.txt" ]]; then
-    fail "fixtures/test-map.txt found" "keep the g02b-dimitrio-enhanced clone alongside your working directory"
+    fail "fixtures/test-map.txt found" "keep the g02b-the-stakes clone alongside your working directory"
     exit 1
 fi
 cp "${FIXTURES}/test-map.txt" "$WORK_DIR/test-map.txt"
