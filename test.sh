@@ -364,7 +364,7 @@ fi
 
 echo
 echo "Running platformer headless (2s)..."
-SDL_VIDEODRIVER=dummy SDL_AUDIODRIVER=dummy timeout 2 ./platformer level1.txt
+SDL_VIDEODRIVER=dummy SDL_AUDIODRIVER=dummy timeout 2 ./platformer "${FIXTURES}/level1.txt"
 platformer_status=$?
 if [[ "$platformer_status" -eq 124 ]]; then
     pass "platformer runs its event loop for 2s without crashing"

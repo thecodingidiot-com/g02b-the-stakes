@@ -79,7 +79,7 @@ make -C libtci re
 bash gen_assets.sh
 bash gen_audio.sh
 make re
-./platformer level1.txt
+./platformer ../fixtures/level1.txt
 ```
 
 Controls: Left/Right arrows (or `h`/`l`) to move, Space to jump,
